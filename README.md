@@ -1,46 +1,55 @@
-<!-- hide -->
+Landing Page con React y Bootstrap
 
-> ⚠️ This repository is deprecated and has no maintenance; we recommend using the [React Hello Vite](https://github.com/4GeeksAcademy/react-hello-vite) template instead.
+Esta es una landing page desarrollada utilizando React y Bootstrap para proporcionar una interfaz moderna y completamente responsiva. El diseño se basa en una estructura básica que incluye secciones clave como una barra de navegación, encabezado principal (Jumbotron), tarjetas de contenido y pie de página.
 
-# Hello World with React boilerplate
+Características principales
 
-Start coding a react application
+Tecnologías: React para la estructura y Bootstrap para el diseño.
 
-<!-- endhide -->
+Responsividad: Adaptada para dispositivos móviles, tabletas y pantallas grandes.
 
-## How to start coding?
+Componentización: Dividida en varios componentes reutilizables.
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
+Fácil personalización: Puedes modificar el contenido y estilos fácilmente.
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+Estructura de componentes
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+Navbar: Incluye enlaces de navegación y un diseño colapsable en dispositivos móviles.
 
-Download the boilerplate using git
+Jumbotron: Sección destacada con un mensaje principal y botón de llamada a la acción.
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+Cards Section: Sección con tarjetas (cards) para presentar contenido.
 
-## Publish your website!
+Footer: Pie de página con información básica de copyright.
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+Instalación y Uso
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+Clona el repositorio en tu máquina local.
 
-## Other features
+Instala las dependencias con:
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+npm install
 
-### Contributors
+Ejecuta la aplicación en modo desarrollo:
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+npm start
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+Abre http://localhost:3000 en tu navegador para ver la página.
+
+Personalización
+
+Para cambiar el contenido del Jumbotron o las tarjetas, edita los respectivos componentes en los archivos Navbar, Jumbotron, y CardsSection.
+
+Puedes modificar estilos directamente en los archivos CSS o ajustando las clases de Bootstrap.
+
+Capturas de Pantalla
+
+Vista Desktop:
+
+
+Vista Mobile:
+
+
+Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
