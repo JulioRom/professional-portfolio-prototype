@@ -39,12 +39,6 @@ El portafolio tiene como objetivo presentar de manera clara y estructurada las c
 - Edita el contenido en los componentes individuales para reflejar información actualizada.
 - Cambia los estilos utilizando las clases de Bootstrap o creando tus propios estilos CSS.
 
-## Capturas de Pantalla
-- **Vista Desktop**:
-  ![Vista Desktop](ruta-a-tu-captura-desktop.png)
-- **Vista Mobile**:
-  ![Vista Mobile](ruta-a-tu-captura-mobile.png)
-
 ## Autor
 - **Julio Campos**
   - Email: julioandrescampos@gmail.com
