@@ -6,8 +6,18 @@ import ReactDOM from "react-dom/client";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import Navbar from "./component/Navbar.jsx";
+import Jumbotron from "./component/Jumbotron.jsx";
+import CardsSection from "./component/CardsSection.jsx";
+import Footer from "./component/Footer.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+ReactDOM.createRoot(document.getElementById('root')).render(
+<React.StrictMode>
+    <Navbar />
+    <Jumbotron />
+    <CardsSection />
+    <Footer />
+</React.StrictMode>
+);
 
